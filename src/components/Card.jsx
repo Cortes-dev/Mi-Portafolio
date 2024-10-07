@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Card = ({ image, title, desc, lang, buttonText, colorBtn }) => {
+const Card = ({ image, title, desc, lang, buttonText, colorBtn, linkUrl }) => {
     return (
-        <div className="w-4/5 md:w-[19rem] bg-white dark:bg-[#171717] shadow-lg rounded-lg border border-green-600 dark:border-blue-600 text-center space-y-5 overflow-hidden">
+        <div className="w-4/5 md:w-[19rem] bg-white dark:bg-[#171717] shadow-lg pb-4 rounded-lg border border-green-600 dark:border-blue-600 text-center space-y-5 overflow-hidden">
             <div className="w-full h-36">
                 <img className='w-full h-full object-cover' src={image} alt={title} />
             </div>
@@ -17,12 +17,12 @@ const Card = ({ image, title, desc, lang, buttonText, colorBtn }) => {
                         </div>
                     ))}
                 </div>
-                <button 
+                <a href={linkUrl} target='_blank'
                     className={`p-1 px-3 rounded-md mb-3 text-white ${colorBtn ? 'bg-green-600 dark:bg-blue-600' : 'bg-[#CC3300]'}`} 
                     disabled
                 >
                     {buttonText}
-                </button>
+                </a>
             </div>
         </div>
     );

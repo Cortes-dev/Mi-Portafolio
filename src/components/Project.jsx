@@ -43,6 +43,7 @@ const Project = () => {
                             desc="Se desarrolló una página web para un puesto de comida, permitiendo a los clientes explorar fácilmente los productos y platillos que se ofrecen, mejorando así su experiencia de compra y conocimiento del menú disponible."
                             lang={LangPuesto}
                             buttonText="code"
+                            linkUrl="https://github.com/Cortes-dev/Antojitos-Don-Berni.git"
                             colorBtn={true}
                         />
                     </div>
