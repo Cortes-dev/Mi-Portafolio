@@ -33,7 +33,7 @@ const Project = () => {
                             title="Cotización"
                             desc="Se desarrolló un sistema de cotización que permite a la empresa generar cotizaciones directas sin usar Excel. El software crea automáticamente el PDF con la conversión de moneda y el cálculo de impuestos."
                             lang={LangCot}
-                            buttonText="No puedo hacer muestra del proyecto"
+                            buttonText= {true}
                             colorBtn={false}
                         />
 
@@ -42,8 +42,9 @@ const Project = () => {
                             title="Antojitos Don Berni"
                             desc="Se desarrolló una página web para un puesto de comida, permitiendo a los clientes explorar fácilmente los productos y platillos que se ofrecen, mejorando así su experiencia de compra y conocimiento del menú disponible."
                             lang={LangPuesto}
-                            buttonText="code"
-                            linkUrl="https://github.com/Cortes-dev/Antojitos-Don-Berni.git"
+                            buttonText={false}
+                            linkUrlGit="https://github.com/Cortes-dev/Antojitos-Don-Berni.git"
+                            linkUrlDemo="https://antojitos-don-berni.vercel.app/"
                             colorBtn={true}
                         />
                     </div>

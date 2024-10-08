@@ -80,7 +80,7 @@ const Skills = () => {
                                             <motion.div
                                                 key={skill.id}
                                                 variants={cardVariants}
-                                                className="w-24 h-36 md:w-36 md:h-44 bg-white dark:bg-[#171717] shadow-lg rounded-lg p-4 border border-green-600 dark:border-blue-600 text-center space-y-5"
+                                                className="w-24 h-36 md:w-36 md:h-44 bg-white dark:bg-[#171717] shadow-lg rounded-lg p-4 border border-green-600 hover:border-blue-600 transition-all hover:dark:border-green-600 duration-400 dark:border-blue-600  text-center space-y-5"
                                             >
                                                 <div className="w-full h-20">
                                                     <img className='w-full h-full object-contain p-1' src={skill.logo} alt={skill.name} />
@@ -102,7 +102,7 @@ const Skills = () => {
                                             <motion.div
                                                 key={skill.id}
                                                 variants={cardVariants}
-                                                className="w-24 h-36 md:w-36 md:h-44 bg-white dark:bg-[#171717] shadow-lg rounded-lg p-4 border border-green-600 dark:border-blue-600 text-center space-y-5"
+                                                className="w-24 h-36 md:w-36 md:h-44 bg-white dark:bg-[#171717] shadow-lg rounded-lg p-4 border border-green-600 dark:border-blue-600  hover:border-blue-600 transition-all hover:dark:border-green-600 duration-400 text-center space-y-5"
                                             >
                                                 <div className="w-full h-20">
                                                     <img className='w-full h-full object-contain p-1' src={skill.logo} alt={skill.name} />
