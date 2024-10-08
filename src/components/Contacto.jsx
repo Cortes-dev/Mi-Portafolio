@@ -36,7 +36,7 @@ const Contacto = () => {
         <div className='min-h-screen flex items-center justify-center p-4'>
             <div className='bg-white dark:bg-gray-900 rounded-lg shadow-lg p-6 max-w-md w-full'>
                 <h1 className='text-2xl font-bold text-center text-green-600 dark:text-blue-600 mb-4'>Contáctame</h1>
-                <form autoComplete='off' method='post' onSubmit={handleSubmit}>
+                <form autoComplete='off' onSubmit={handleSubmit}>
                     <div className='mb-4'>
                         <label htmlFor="nombre" className='block text-gray-700 dark:text-gray-300 mb-2'>Nombre:</label>
                         <input
